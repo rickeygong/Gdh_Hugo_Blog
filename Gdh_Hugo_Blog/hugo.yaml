@@ -1,4 +1,4 @@
-baseurl: https://gdhblog.com/ # 你的域名
+baseurl: http://101.133.224.90/ # 你的域名
 languageCode: zh-cn
 theme: hugo-theme-stack
 # [GongDonghai comments.]博客的主名，粗暴一点就是[xxx博客]之类的
@@ -18,20 +18,23 @@ DefaultContentLanguage: zh-cn
 hasCJKLanguage: true
 
 languages:
-    en:
-        languageName: English
-        title: Donghai Gong
-        weight: 1
-        params:
-            sidebar:
-                subtitle: I sincerely document this because life is worth it.
     zh-cn:
         languageName: 中文
         title: 龚东海
-        weight: 2
+        languageCode: zh-cn
+        weight: 1
         params:
             sidebar:
                 subtitle: 我真诚地记录着，因为生活值得
+    en:
+        languageName: English
+        title: Donghai Gong
+        weight: 2
+        languageCode: en
+        params:
+            sidebar:
+                subtitle: I sincerely document this because life is worth it.
+
 
 services:
     # Change it to your Disqus shortname before using

@@ -3,7 +3,7 @@ date: '2024-11-11T13:05:12+08:00'
 title: 'NPM Introduction'
 description: ''
 slug: 'js-npm-introduction'
-image: "post/Javascript/2024-11/NPM初体验/assets/npm-logo.png"
+image: "post/images/npm-logo.png"
 categories:
     - Javascript
 tags:
