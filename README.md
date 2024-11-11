@@ -1,1 +1,1 @@
-# gdh_hugo_blog
+# Hugo搭建的个人博客
