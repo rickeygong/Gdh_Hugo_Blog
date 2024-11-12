@@ -1,26 +1,33 @@
 ---
 date: '2024-10-15T12:55:51+08:00'
-title: '这是一篇测试文章'
+title: 'Dynamics CRM - Check access speed'
 description: ''
-slug: ''
-image:
+slug: 'dynamics-crm-check-access-speed'
+image: 'post/images/dynamics-crm-logo.png'
 categories:
     - Dynamics-CRM
 tags:
     - CRM
 draft: false
+keywords:
+    - dynamics
+    - crm
+    - check-access-speed
 ---
 
-## 前言
-### 你好
-#### 这是一篇测试文章
+## Check Access Speed
 
-## 参考
-### 1.xxx
-### 2.xxxxxxxx
-### 3.xxxxxxxxxxxxxxxx
+Assuming your environment link is：[https://sample.dynamics.cn/main.aspx]
 
-## 版权
-### 1.xxx
-### 2.xxxxxxxx
-### 3.xxxxxxxxxxxxxxxx
+Append `/tools/diagnostics/diag.aspx` to the link, then visit:
+
+```xml
+# Url sample
+https://sample.dynamics.cn/tools/diagnostics/diag.aspx
+```
+
+After accessing it, you will see "Dynamics 365 Diagnostics"
+
+Click "Run," and after a moment, the diagnostic results will appear.
+
+![dynamics-365-diagnostics](post/images/SnipastePro_2024_11_12_20_58_02.png)

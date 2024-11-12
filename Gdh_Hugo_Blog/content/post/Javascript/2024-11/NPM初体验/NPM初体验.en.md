@@ -24,7 +24,8 @@ Overall, NPM is a powerful tool that provides convenient package management func
 
 ## Example 1
 
-I have briefly experienced the example.<br />
+I have briefly experienced the example.
+
 This example is very simple; it uses the NPM command to generate a few predefined folders.
 
 ### Start Coding
@@ -35,7 +36,7 @@ P.S: Ensure that Node.js is installed in the environment.
 
 ![image-20241111150607066](post/images/image-20241111150607066.png)
 
-#### Create and enter the folder.
+#### Create and enter the folder
 
 ```powershell
 mkdir FolderCreator
@@ -43,10 +44,12 @@ mkdir FolderCreator
 cd FolderCreator
 ```
 
-#### Initialize the npm project.
+#### Initialize the npm project
 
 ```powershell
-npm init -y	
+
+npm init -y
+
 ```
 
 >`npm init -y` is a command used to quickly generate a package.json file for a project. In this command, `npm init` initializes a new Node.js project, while the `-y`flag indicates that default values should be used during the initialization process, eliminating the need for user input.
@@ -55,7 +58,7 @@ npm init -y
 
 ![image-20241111151220221](post/images/image-20241111151220221.png)
 
-#### Create and edit the script file.
+#### Create and edit the script file
 
 ![image-20241111151248347](post/images/image-20241111151248347.png)
 
@@ -108,14 +111,19 @@ In the package.json file, add a bin field to use this script as a command-line t
 
 #### Add  #!/usr/bin/env node
 
-At the top of the createFolders.js file, add `#!/usr/bin/env node`.<br />
-This line of code is a special comment called a shebang, which typically appears as the first line in script files on Unix-like systems.<br />
-It tells the operating system which interpreter to use to execute this script.<br />
+At the top of the createFolders.js file, add `#!/usr/bin/env node`.
+
+This line of code is a special comment called a shebang, which typically appears as the first line in script files on Unix-like systems.
+
+It tells the operating system which interpreter to use to execute this script.
+
 In this case, `#!/usr/bin/env node` means to use the Node.js interpreter from the environment to run this script.
 
 #### Publish locally using npm link
 
-Use the `npm link` command to publish the package globally (locally), <br />making it easy to call directly from the command line.
+Use the `npm link` command to publish the package globally (locally),
+
+making it easy to call directly from the command line.
 
 ```powershell
 npm link
@@ -123,7 +131,9 @@ npm link
 
 #### Run the script (locally)
 
-Create a new folder on the desktop, then enter the command in the command line. <br />After running it, the predefined folders will be generated.
+Create a new folder on the desktop, then enter the command in the command line
+
+After running it, the predefined folders will be generated.
 
 ```powershell
 create-folders
@@ -133,7 +143,7 @@ create-folders
 
 Publish the package you created to NPM. Here are the specific steps.
 
-#### Create an NPM account.
+#### Create an NPM account
 
 NPM Official Website：[https://www.npmjs.com](https://www.npmjs.com/)
 
@@ -173,15 +183,13 @@ After adjusting the information in package.json, enter npm pack in the terminal 
 
 ![image-20241111151814166](post/images/image-20241111151814166.png)
 
-#### Publish
+#### Publish NPM
 
 Enter the code.
 
 ```powershell
 npm publish
 ```
-
-<br />
 
 #### Remark
 
@@ -196,7 +204,7 @@ After a few minutes, you will be able to see it on NPM. Next, I will demonstrate
 
 ![image-20241111152003685](post/images/image-20241111152003685.png)
 
-#### Create and enter a folder.
+#### Create and enter a folder
 
 ```powershell
 mkdir Test_FolderCreator
@@ -206,7 +214,7 @@ cd Test_FolderCreator
 
 #### Install
 
-```
+``` shell
 npm i gdhblog_foldercreator
 ```
 
