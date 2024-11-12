@@ -27,7 +27,7 @@ Currently residing in Shanghai, I have participated in and implemented multiple 
 
 ## Contact Information
 
-Email: [donghai.gong@outlook.com](mailto:donghai.gong@outlook.com)
+Email: [gdhblog@outlook](mailto:gdhblog@outlook)
 
 WeChat: rickey_gong
 

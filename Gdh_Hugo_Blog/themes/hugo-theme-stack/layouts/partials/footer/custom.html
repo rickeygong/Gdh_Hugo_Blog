@@ -1,0 +1,37 @@
+<script defer language="javascript">
+    let languageResources = {
+        'en': {
+            'running': "The site has been running for ",
+            'days': " days ",
+            'hours': " hours ",
+            'minutes': " minutes ",
+            'seconds': " seconds"
+        },
+        'zh-cn': {
+            'running': "本站已经晃晃荡荡地运行了",
+            'days': "天",
+            'hours': "小时",
+            'minutes': "分",
+            'seconds': "秒"
+        }
+    };
+    var currentLanguage = document.documentElement.lang;
+    function ShowSiteDatetime() {
+        window.setTimeout(ShowSiteDatetime, 1000);
+        var BirthDay = new Date("1/1/2023 00:00:00");
+        var today = new Date();
+        var timeold = today.getTime() - BirthDay.getTime();
+        var e_daysold = timeold / (24 * 60 * 60 * 1000);
+        var daysold = Math.floor(e_daysold);
+        var e_hrsold = (e_daysold - daysold) * 24;
+        var hrsold = Math.floor(e_hrsold);
+        var e_minsold = (e_hrsold - hrsold) * 60;
+        var minsold = Math.floor((e_hrsold - hrsold) * 60);
+        var seconds = Math.floor((e_minsold - minsold) * 60);
+        var res = languageResources[currentLanguage];
+        if(document.getElementById('span_show_age')){
+            document.getElementById('span_show_age').innerHTML = res.running + daysold + res.days + hrsold + res.hours + minsold + res.minutes + seconds + res.seconds;
+        }
+    }
+    ShowSiteDatetime();
+</script>

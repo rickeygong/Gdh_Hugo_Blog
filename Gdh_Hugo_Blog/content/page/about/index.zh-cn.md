@@ -20,7 +20,7 @@ menu:
 
 ## 联系信息
 
-Email：donghai.gong@outlook.com
+Email：[gdhblog@outlook](mailto:gdhblog@outlook)
 
 Wechat：rickey_gong
 

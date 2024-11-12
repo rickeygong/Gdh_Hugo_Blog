@@ -1,5 +1,6 @@
 ---
 title: Links
+
 links:
   # - title: GitHub
   #   description: GitHub is the world's largest software development platform.
@@ -9,8 +10,8 @@ links:
   #   description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
   #   website: https://www.typescriptlang.org
   #   image: ts-logo-128.jpg
-  - title: Golden House Navigation
-    description: Golden House Navigation
+  - title: 黄金屋导航
+    description: 黄金屋导航
     website: https://www.hjw.zone/
     image: hjwdh.png
 menu:
@@ -21,6 +22,8 @@ menu:
 
 comments: false
 ---
+
+欢迎友链。
 
 <!-- To use this feature, add `links` section to frontmatter.
 

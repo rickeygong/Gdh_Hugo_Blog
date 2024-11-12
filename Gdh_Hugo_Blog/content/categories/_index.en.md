@@ -1,6 +1,6 @@
 ---
-title: "分类"
-description: "This is an example category"
+title: "Category"
+description: ""
 slug: "category"
 image: "hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg"
 style:
