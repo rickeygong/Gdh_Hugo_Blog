@@ -398,7 +398,7 @@ FodyWeavers.xsd
 *.sln.iml
 
 # 忽略 public 文件夹下的所有文件
-/public/*
+Gdh_Hugo_Blog/public/*
 
 # 但不忽略 public 文件夹本身
-!/public/
+!Gdh_Hugo_Blog/public/
