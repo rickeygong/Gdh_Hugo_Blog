@@ -17,17 +17,17 @@ keywords:
 
 ## Check Access Speed
 
-Assuming your environment link is：[https://sample.dynamics.cn/main.aspx]
+Assuming your environment link is [https://sample.dynamics.cn/main.aspx]
 
-Append `/tools/diagnostics/diag.aspx` to the link, then visit:
+Append `/tools/diagnostics/diag.aspx` to the link, then visit.
 
 ```xml
 # Url sample
 https://sample.dynamics.cn/tools/diagnostics/diag.aspx
 ```
 
-After accessing it, you will see "Dynamics 365 Diagnostics"
+Only after accessing will you see "Dynamics 365 Diagnostics"
 
-Click "Run," and after a moment, the diagnostic results will appear.
+Click `Run` and after a moment, the diagnostic results will appear.
 
 ![dynamics-365-diagnostics](post/images/SnipastePro_2024_11_12_20_58_02.png)
