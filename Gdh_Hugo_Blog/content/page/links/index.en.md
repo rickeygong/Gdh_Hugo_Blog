@@ -9,10 +9,14 @@ links:
   #   description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
   #   website: https://www.typescriptlang.org
   #   image: ts-logo-128.jpg
+  - title: Markdown
+    description: Markdown
+    website: https://markdown.com.cn/basic-syntax/
+    image: 
   - title: Golden House Navigation
     description: Golden House Navigation
     website: https://www.hjw.zone/
-    image: hjwdh.png
+    image: 
 menu:
     main: 
         weight: -50
