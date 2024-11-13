@@ -206,7 +206,7 @@ At this point, the example is complete. You can open and preview it from the Rep
 
 ## Get the Connection String
 
-The format of the connection string is: 
+The format of the connection string is:
 
 `{Environment URL}`/`{Environment Unique Name}`
 
