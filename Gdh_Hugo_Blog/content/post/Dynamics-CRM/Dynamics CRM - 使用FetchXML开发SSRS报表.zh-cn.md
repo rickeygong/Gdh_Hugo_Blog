@@ -1,8 +1,8 @@
 ---
 date: '2024-10-17T20:00:00+08:00'
-title: 'Dynamics CRM - 使用Fetc开发SSRS报表'
+title: 'Dynamics CRM - 使用Fetch开发SSRS报表'
 description: '使用FetchXML开发SSRS报表：1.环境准备；2.开发实例'
-slug: 'dynamics-crm-developing-ssrs-reports-using-fetc'
+slug: 'dynamics-crm-developing-ssrs-reports-using-fetch'
 image: 'post/images/dynamics-crm-logo.png'
 categories:
     - Dynamics-CRM
@@ -166,7 +166,6 @@ P.S 下列的软件，请按照顺序进行操作，否则会出现意想不到�
 然后依次为其他列绑定数据
 
 ![SnipastePro_2024_11_13_11_04_20.png](post/images/SnipastePro_2024_11_13_11_04_20.png)
-
 
 #### 测试(预览)报表
 
