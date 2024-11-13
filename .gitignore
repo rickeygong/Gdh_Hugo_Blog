@@ -397,5 +397,8 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-# Hugo public
-/public/
+# 忽略 public 文件夹下的所有文件
+/public/*
+
+# 但不忽略 public 文件夹本身
+!/public/
