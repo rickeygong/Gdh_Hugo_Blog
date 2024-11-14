@@ -11,11 +11,15 @@
     data-emit-metadata="{{- default 0 .emitMetadata -}}"
     data-input-position="{{- default `top` .inputPosition -}}"
     data-theme="{{- default `light` .lightTheme -}}"
-    data-lang="{{- default (default `en` $.Language.LanguageCode) .lang -}}"
+    data-lang="{{ if eq $.Site.Language.Lang `zh-cn` }}zh-CN{{ else }}{{ default `en` $.Site.Language.Lang }}{{ end }}"
     data-loading="{{- .loading -}}"
     crossorigin="anonymous"
     async
 ></script>
+<!-- 原来的 -->
+<!-- data-lang="{{- default (default `en` $.Language.LanguageCode) .lang -}}" -->
+<!-- 修改后的 -->
+<!-- data-lang="{{ if eq $.Site.Language.Lang "zh-cn" }}zh-CN{{ else }}{{ default `en` $.Site.Language.Lang }}{{ end }}" -->
 <script>
     function setGiscusTheme(theme) {
         let giscus = document.querySelector("iframe.giscus-frame");
