@@ -1,1 +1,80 @@
 /* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
+
+
+/* [Begin]Link page css */
+
+@media (min-width: 1024px) {
+    .article-list--compact.links {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background: none;
+        box-shadow: none;
+
+        article {
+            background: var(--card-background);
+            border: none;
+            box-shadow: var(--shadow-l2);
+            margin-bottom: 8px;
+            border-radius: 10px;
+
+            &:not(:nth-child(3n)) {
+                margin-right: 8px;
+            }
+        }
+    }
+}
+
+.article-list--compact.links {
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+    article {
+        position: relative;
+
+        .badge {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 100%;
+            bottom: 10px;
+            right: 10px;
+            padding: 0 !important;
+            display: block !important;
+            text-align: center;
+            font-size: 20px;
+            background-color: var(--card-background);
+            box-shadow: var(--shadow-l2);
+        }
+    }
+}
+
+.article-list--title {
+    color: var(--accent-color);
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-left: 10px;
+}
+
+/* [End]Link page css */
+
+//友情链接双栏
+// @media (min-width: 1024px) {
+//     .article-list--compact.links {
+//         display: grid;
+//         grid-template-columns: 1fr 1fr;
+//         background: none;
+//         box-shadow: none;
+        
+//         article {
+//             background: var(--card-background);
+//             border: none;
+//             box-shadow: var(--shadow-l2);
+//             margin-bottom: 8px;
+//             border-radius: 10px;
+//             &:nth-child(odd) {
+//                 margin-right: 8px;
+//             }
+//         }
+//     }
+// }

@@ -25,6 +25,10 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
     --scrollbar-thumb: hsl(0, 0%, 85%);
     --scrollbar-track: var(--body-background);
 
+    /* 标签圆角 */
+    --tag-border-radius: 24px;
+    --category-border-radius: 4px;
+
     &[data-scheme="dark"] {
         --body-background: #303030;
         --accent-color: #ecf0f1;

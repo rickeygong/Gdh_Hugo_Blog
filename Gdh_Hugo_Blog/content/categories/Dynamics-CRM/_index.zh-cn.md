@@ -4,6 +4,6 @@ description: ""
 slug: "dynamics-crm"
 image: "Microsoft-Dynamics-CRM.png"
 style:
-    background: "#2a9d8f"
+    background: "#133E87"
     color: "#fff"
 ---
