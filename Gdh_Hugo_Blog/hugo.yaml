@@ -92,29 +92,6 @@ params:
         enabled: true
         provider: "giscus"
 
-        disqusjs:
-            shortname:
-            apiUrl:
-            apiKey:
-            admin:
-            adminLabel:
-
-        # <script src="https://giscus.app/client.js"
-        #         data-repo="rickeygong/gdhblog_giscus"
-        #         data-repo-id="R_kgDONOxGaw"
-        #         data-category="Announcements"
-        #         data-category-id="DIC_kwDONOxGa84CkO6I"
-        #         data-mapping="pathname"
-        #         data-strict="0"
-        #         data-reactions-enabled="1"
-        #         data-emit-metadata="0"
-        #         data-input-position="bottom"
-        #         data-theme="preferred_color_scheme"
-        #         data-lang="zh-CN"
-        #         crossorigin="anonymous"
-        #         async>
-        # </script>
-
         giscus:
             repo: "rickeygong/gdhblog_giscus"
             repoID: "R_kgDONOxGaw"
@@ -127,68 +104,6 @@ params:
             emitMetadata: 0
             lang: ""
 
-        utterances:
-            repo:
-            issueTerm: pathname
-            label:
-
-        beaudar:
-            repo:
-            issueTerm: pathname
-            label:
-            theme:
-
-        remark42:
-            host:
-            site:
-            locale:
-
-        vssue:
-            platform:
-            owner:
-            repo:
-            clientId:
-            clientSecret:
-            autoCreateIssue: false
-
-        # Waline client configuration see: https://waline.js.org/en/reference/component.html
-        waline:
-            serverURL:
-            lang:
-            pageview:
-            emoji:
-                - https://unpkg.com/@waline/emojis@1.0.1/weibo
-            requiredMeta:
-                - name
-                - email
-                - url
-            locale:
-                admin: Admin
-                placeholder:
-
-        twikoo:
-            envId:
-            region:
-            path:
-            lang:
-
-        # See https://cactus.chat/docs/reference/web-client/#configuration for description of the various options
-        cactus:
-            defaultHomeserverUrl: "https://matrix.cactus.chat:8448"
-            serverName: "cactus.chat"
-            siteName: "" # You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)
-
-        gitalk:
-            owner:
-            admin:
-            repo:
-            clientID:
-            clientSecret:
-            proxy:
-
-        cusdis:
-            host:
-            id:
     widgets:
         homepage:
             - type: search
@@ -307,4 +222,3 @@ markup:
         lineNos: true
         lineNumbersInTable: true
         tabWidth: 4
-
